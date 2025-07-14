@@ -1,0 +1,4 @@
+<DirectoryMatch "^(private|secret)">
+  Order Allow,Deny
+  Deny from all
+</DirectoryMatch>
